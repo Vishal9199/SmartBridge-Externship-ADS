@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Medical Cost Prediction</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../static/style.css" />
+    </head>
+
+    <body>
+        <div class="all">
+        <h1 class="heading">Medical Cost Prediction</h1>
+        <img src="../static/images/images.jpg"></img>
+        <form action = "/login" method= "post">
+            <div class="var">
+            <p class="age">Age</p>
+            <p><input type="text" name = "Age" /></p>
+            <p class="sex">Sex (male-0 / female-1)</p>
+            <p><input type="text" name = "Sex" /></p>
+            <p class="bmi">Bmi Index</p>
+            <p><input type="text" name = "Bmi" /></p>
+            <p class="child">Number of Children</p>
+            <p><input type="text" name = "C" /></p>
+            <p class="smoke">Smoke (Yes-1 / No-0)</p>
+            <p><input type="text" name = "Sm" /></p>
+            <p class="region">Region(0-NW, 1-NE, 2-SE, 3-SW)</p>        
+            <p><input type="text" name = "R" /></p>
+            </div>
+
+            <p class="btn btn-primary"><input type="submit" value = "submit" /></p>
+        </div>
+        </form>
+        <div class="prediction">
+        <b>Predicted Cost {{y}}</b>
+        </div>
+    </body>
+</html>

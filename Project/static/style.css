@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+
+.all{
+    font-family: 'Libre Baskerville', serif;
+    display: grid;
+    grid-column:auto;
+    width: 75%;
+    height: 75%;
+    gap: 10px;
+    background-color: paleturquoise;
+    justify-content: center;
+    margin-left: 12.5%;
+    margin-top: 3%;
+    border-radius: 3%;
+}
+
+.prediction{
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: palegreen;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.heading{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.var{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
